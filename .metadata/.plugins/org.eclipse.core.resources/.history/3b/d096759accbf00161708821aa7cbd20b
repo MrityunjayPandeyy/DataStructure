@@ -1,0 +1,26 @@
+package com.mrityunjay.datastrcture;
+/**
+ * http://www.geeksforgeeks.org/find-the-largest-subtree-in-a-tree-that-is-also-a-bst/
+ * 
+ * 
+ * 
+ * */
+
+class Node{
+	int key;
+	Node left,right;
+	Node(int key){
+		this.key=key;
+		left=right=null;
+	}
+}
+public class MaxBinaryTree {
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

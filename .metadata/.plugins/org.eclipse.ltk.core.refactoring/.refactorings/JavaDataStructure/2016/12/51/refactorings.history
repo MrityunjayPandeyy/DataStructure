@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.mrityunjay.datastrcture.MaxBinaryTress&apos; to &apos;MaxBinaryTree&apos;&#x0D;&#x0A;- Original project: &apos;JavaDataStructure&apos;&#x0D;&#x0A;- Original element: &apos;com.mrityunjay.datastrcture.MaxBinaryTress&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mrityunjay.datastrcture.MaxBinaryTree&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MaxBinaryTress&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.mrityunjay.datastrcture{MaxBinaryTress.java[MaxBinaryTress" matchStrategy="1" name="MaxBinaryTree" qualified="false" references="true" similarDeclarations="false" stamp="1481479457907" textual="false" version="1.0"/>
+</session>
