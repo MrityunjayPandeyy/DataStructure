@@ -29,6 +29,34 @@ public class BinarySearchTree {
 		root=null;
 	}
 
+	public static void main(String[] args) {
+		int i=2;
+		while(i<8)
+		{
+			insertnode(i+3);
+			i++;
+		}
+		printInorder();
+		System.out.println("Preorder is :");
+		printPreOrder();
+		System.out.println("\nPostOrder is ");
+		printPostOrder();
+		System.out.println("\nMin - Max Val");
+		System.out.println(findMinimum(root));
+		System.out.println(findMaximum(root));
+		System.out.println(searchRecord(root,11).key);
+	}
+	
+	public static Node searchRecord(Node currentNode,int item){
+		if(currentNode==null || (item==currentNode.key)){
+			return currentNode;
+		}
+		else if(item>currentNode.key){
+			return searchRecord(currentNode.right, item);
+		}
+			return searchRecord(currentNode.left, item);
+		
+	}
 	public static void insertnode(int nodeVal){
 		Node node= new Node(nodeVal);
 		if(root==null){
@@ -56,22 +84,7 @@ public class BinarySearchTree {
 
 		}
 	}
-	public static void main(String[] args) {
-		int i=2;
-		while(i<8)
-		{
-			insertnode(i+3);
-			i++;
-		}
-		printInorder();
-		System.out.println("Preorder is :");
-		printPreOrder();
-		System.out.println("\nPostOrder is ");
-		printPostOrder();
-		System.out.println("\nMin - Max Val");
-		System.out.println(findMinimum(root));
-		System.out.println(findMaximum(root));
-	}
+
 
 	/**
 	 * Printing the contents of the tree in an inorder way.
