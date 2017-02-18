@@ -22,7 +22,7 @@ public class ReverseString {
             return;
         }
       String[] wordArray =  sentence.split(" ");
-
+        //swap word
         for(int i=0;i<wordArray.length/2;i++){
             String temp;
             temp=wordArray[i];
