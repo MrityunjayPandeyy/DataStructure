@@ -20,7 +20,8 @@ class Node{
 public class BinaryTreeFromArray
 {
 
-    public static void main(String g[]){
+    @SuppressWarnings("resource")
+	public static void main(String g[]){
         Scanner sc = new Scanner(System.in);
         String[] input = sc.nextLine().split(",");
         arrayToTree(input);
