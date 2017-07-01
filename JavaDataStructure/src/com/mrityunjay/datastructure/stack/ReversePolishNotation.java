@@ -1,4 +1,4 @@
-package com.mrityunjay.datastrcture.stack;
+package com.mrityunjay.datastructure.stack;
 
 import java.util.Scanner;
 import java.util.Stack;

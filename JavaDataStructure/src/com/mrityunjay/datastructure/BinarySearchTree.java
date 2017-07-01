@@ -1,4 +1,4 @@
-package com.mrityunjay.datastrcture;
+package com.mrityunjay.datastructure;
 /**
  * Inserting/Building a BST
    Finding maximum value node in BST

@@ -1,4 +1,4 @@
-package com.mrityunjay.datastrcture.tree;
+package com.mrityunjay.datastructure.tree;
 
 import javax.swing.tree.TreeNode;
 import java.util.Scanner;

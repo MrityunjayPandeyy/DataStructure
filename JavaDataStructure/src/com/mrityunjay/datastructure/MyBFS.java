@@ -1,11 +1,11 @@
-package com.mrityunjay.datastrcture;
+package com.mrityunjay.datastructure;
 
 import java.util.InputMismatchException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-import com.mrityunjay.datastrcture.bfs.BFS;
+import com.mrityunjay.datastructure.bfs.BFS;
 
 public class MyBFS {
 	

@@ -1,4 +1,4 @@
-package com.mrityunjay.datastrcture.bfs;
+package com.mrityunjay.datastructure.bfs;
 /**
  * $javac BFS.java
 $java BFS
